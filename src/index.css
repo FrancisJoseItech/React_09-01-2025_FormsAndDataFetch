@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.homepagecontainer{
+  height:100vh;
+  background-color: rgb(242, 246, 247);
+  display:flex;
+  /* this will make it appear like column */
+  flex-direction: column;
+
+}
+
+.content{
+  flex:1;
+}
+
+/* when we we use height 100vh for the parent div and flex 1 to the child div
+here all the other components in the parent class will take their respective container space and one ginen the
+ flex:1 will take the rest of the height given in the 100vh */
+
+ .productImage{
+  width:300px;
+  height:300px;
+  object-fit:contain;
+ }
