@@ -50,6 +50,20 @@ axioxs will be imported in productdetail
 api hit will be done through useEffect hook for single product with the id obtained through useParams
 obtained product with the id will be saved to a State
 
+Rendering the page after the api call:
+we will use loader for that
+URL params loader in react router
+we will create a function for api call using async await
+we will use try catch for handling
+we will return the product for using it elsewhere
+so here when the route is hit; we want the functiontion to be triggered which calls the api
+and after that we want the element component to be rendered
+so inorder for that we give function in loader key
+the function is exported to be accessed in route
+useLoader data is used to get the data retured to the loader in the component
+
+
+
 
 
 
