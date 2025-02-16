@@ -62,6 +62,22 @@ so inorder for that we give function in loader key
 the function is exported to be accessed in route
 useLoader data is used to get the data retured to the loader in the component
 
+Inside the loader the id will be passed from the route
+it will be accessed as params in loader
+params id will be used as temeperate literals for the api call
+same name used or reserved in the route for dynamic id ahould be used for the api call in the loader
+Any name can be resereved in the route for passing the id from the productcard; 
+
+without the loader function:
+useeffect will work inside the productDeatail component
+id for the useEffect will come in the URL
+id will reach the browser through the route dynamic id name as params
+it will be obtained through the Useparams
+and the id will be otained and it will be placed as template literals for api call
+then we will keep it to the state 
+and render it in the component
+
+
 
 
 
